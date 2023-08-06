@@ -1,0 +1,16 @@
+{
+  "name": "pnpm_debugger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear-store": "rm -rf /Users/sinpo/Library/pnpm/store/ && rm -rf pnpm-lock.yaml",
+    "test-install": "pnpm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
+}
