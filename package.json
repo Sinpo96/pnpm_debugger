@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clear-store": "rm -rf /Users/sinpo/Library/pnpm/store/ && rm -rf pnpm-lock.yaml && rm -rf node_modules",
+    "clear-project-modules": "rm -rf pnpm-lock.yaml && rm -rf node_modules",
+    "mac-clear-store": "rm -rf /Users/sinpo/Library/pnpm/store/ && pnpm run clear-project-modules",
+    "win-clear-store": "rm -rf /mnt/d/.pnpm-store/v3/ && pnpm run clear-project-modules",
     "test-install": "pnpm install"
   },
   "keywords": [],
